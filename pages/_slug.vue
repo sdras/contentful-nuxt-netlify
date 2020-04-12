@@ -47,5 +47,6 @@ export default {
   width: 100%;
   height: 300px;
   margin: 30px 0;
+  background-size: 100% auto;
 }
 </style>
