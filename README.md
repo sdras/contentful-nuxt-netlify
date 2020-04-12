@@ -2,7 +2,7 @@
 
 > An example blog with Contentful CMS and Nuxt/Vue Deployed on Netlify
 
-Set up example instructions [in this blog post](https://netlify.com/blog/2020/04/11/create-a-blog-with-contentful-and-nuxt/).
+Set up example instructions [in this blog post](https://netlify.com/blog/2020/04/14/create-a-blog-with-contentful-and-nuxt/).
 
 ## Build Setup
 
