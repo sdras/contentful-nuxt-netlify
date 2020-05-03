@@ -4,7 +4,6 @@
       <nuxt-link exact to="/">⟵ Back to Home</nuxt-link>
     </p>
     <h1>{{ post.fields.title }}</h1>
-    <p class="author">By {{ post.fields.author.fields.name }}</p>
     <div
       class="image"
       :style="

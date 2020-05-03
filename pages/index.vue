@@ -12,9 +12,9 @@
         <h2 class="title">
           <nuxt-link :to="post.fields.slug">{{ post.fields.title }}</nuxt-link>
         </h2>
-        <p class="author">By {{ post.fields.author.fields.name }}</p>
         <p class="description">
-          {{ post.fields.description }}<br />
+          {{ post.fields.description }}
+          <br />
           <nuxt-link :to="post.fields.slug" class="more">Read more ⟶</nuxt-link>
         </p>
       </section>
@@ -43,6 +43,7 @@ section {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   padding: 30px 0;
+  min-height: 250px;
   h2,
   p {
     margin-top: 0;
@@ -62,12 +63,12 @@ section {
 .title {
   grid-area: 1 / 3 / 2 / 6;
 }
-.author {
+.description {
   grid-area: 2 / 3 / 3 / 6;
 }
-.description {
-  grid-area: 3 / 3 / 4 / 6;
-}
+// .description {
+//   grid-area: 3 / 3 / 4 / 6;
+// }
 
 .more {
   color: #eee;
